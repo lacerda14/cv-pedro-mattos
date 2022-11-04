@@ -1,0 +1,347 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: white;
+}
+header {
+  background-image: url(https://res.cloudinary.com/practicaldev/image/fetch/s--BuPz-p40--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nphrgz8yfnjylrwfr0yl.png);
+  background-attachment: fixed;
+  height: 200px;
+  background-repeat: no-repeat;
+  padding-top: 20px;
+  background-size: cover;
+  padding-bottom: 80px;
+}
+.nav {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: flex-end;
+  margin: 0px 20px 0 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 20px 0 0 0;
+}
+.button {
+  display: flex;
+  gap: 10px;
+}
+.butaonav {
+  background-color: transparent;
+  color: white;
+  border: none;
+  transition: 0.4s;
+  font-size: 1.2rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.butaonav:hover {
+  cursor: pointer;
+  color: #008080;
+  font-weight: bold;
+}
+
+.descricaoheader {
+  margin: 5% 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.bemvindo {
+  margin: 40px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+#boasvindas {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}
+#contato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contatobutao {
+  background-color: rgb(223, 83, 106);
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  border: none;
+}
+#contatobutao:hover {
+  cursor: pointer;
+}
+
+.pedromattosdev {
+  font-size: 50px;
+  color: white;
+}
+.principal {
+  margin: auto;
+  background-color: #e7e6e6;
+  padding: 40px 0 25px 0;
+}
+.pedro2 {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pedro {
+  width: 300px;
+  height: auto;
+  padding: 20px;
+}
+.sobremim {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.formacaopedro {
+  text-align: justify;
+  padding-top: 10px;
+}
+.titulo {
+  width: 100%;
+  padding: 15px -5px 10px 10px;
+}
+#hr {
+  width: 15.8%;
+}
+.hrskill {
+  width: 12.5%;
+  margin: auto;
+}
+.texto {
+  font-size: 12px;
+  padding: 20px;
+  text-align: left;
+}
+h4 {
+  color: #008080;
+}
+.textosobremim {
+  font-size: 14px;
+  text-indent: 20px;
+  padding: 20px 20px 20px 0px;
+  text-align: justify;
+}
+#paragrafo2 {
+  font-size: 14px;
+  text-indent: 20px;
+  text-align: justify;
+  padding: 0 20px 0px 0px;
+}
+.habilidades {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px 20px 20px 10px;
+  box-sizing: border-box;
+}
+.habilidadesesquerda {
+  width: 40%;
+}
+.habilidadesdireita {
+  width: 40%;
+}
+
+.progressbarhtml {
+  height: 6px;
+  background-color: #ccc;
+  display: flex;
+  border-radius: 20px;
+}
+.progressbarhtml::before {
+  content: "";
+  width: 70%;
+  background-color: #1f2a40;
+  height: 6px;
+  border-radius: 20px;
+}
+.porcetagem {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 0px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.progressbarjs {
+  height: 6px;
+  background-color: #ccc;
+  display: flex;
+  border-radius: 20px;
+}
+.progressbarjs::before {
+  content: "";
+  width: 60%;
+  background-color: #1f2a40;
+  height: 6px;
+  border-radius: 20px;
+}
+
+.progressbarboot {
+  height: 6px;
+  background-color: #ccc;
+  display: flex;
+  border-radius: 20px;
+}
+.progressbarboot::before {
+  content: "";
+  width: 5%;
+  background-color: #1f2a40;
+  height: 6px;
+  border-radius: 20px;
+}
+.progressbarangular {
+  height: 6px;
+  background-color: #ccc;
+  display: flex;
+  border-radius: 20px;
+}
+.progressbarangular::before {
+  content: "";
+  width: 5%;
+  background-color: #1f2a40;
+  height: 6px;
+  border-radius: 20px;
+}
+#titulo2 {
+  text-align: center;
+  padding-top: 15px;
+}
+.header2 {
+  padding: 20px;
+}
+.detalhe {
+  padding-bottom: 30px;
+}
+#hr2 {
+  width: 20.8%;
+}
+.formacaocontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fotosformacao,
+.fotoshobbies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.universidades,
+.fotoshobbies {
+  width: 150px;
+  height: 150px;
+  padding: 30px;
+  vertical-align: center;
+}
+.texto2 {
+  font-size: 12px;
+  text-align: left;
+}
+
+.textouniversidade {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  padding: 0 20px 40px 20px;
+}
+
+.hobbies {
+  background-color: rgb(231, 230, 230);
+}
+#hr3 {
+  width: 6.8%;
+}
+.containerexterno {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 20px 20px 20px;
+}
+.containerexterno2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 20px 0 20px;
+}
+.hobbietextohobbies {
+  text-align: center;
+}
+#fotosamba,
+#fotoviho,
+#nfl {
+  padding: 0 30px 30px 30px;
+}
+.hrexterno {
+  padding: 0px 0 10px 0;
+}
+.hrhobbie {
+  margin: auto;
+  width: 70%;
+}
+.textofim {
+  text-align: left;
+  padding-bottom: 30px;
+}
+.textofim2 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+h1{
+  text-align: center;
+}
+.hrcontatos{
+  margin: auto;
+  width: 8%;
+}
+.redescontainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.redessociais{
+  width: 150px;
+  height: auto;
+  padding: 20px;
+}
+.redesitens{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding-bottom: 20px;
+  
+}
+footer {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: #1f2a40;
+  color: white;
+  padding: 5px;
+}
